@@ -1,0 +1,75 @@
+header {
+    position: static;
+    margin: 30px;
+}
+#header-word{
+    position: relative;
+    font-size:80px;
+    z-index: 30;
+}
+
+#header-background {
+    position: relative;
+    width: 80%;
+    height: 80px;
+    bottom: 50px;
+    background-color:rgb(164, 238, 164);
+    z-index: 1;
+}
+
+.wholeBody {
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.mySlides {
+    width: 100%;
+    text-align: center;   
+}
+
+.diagram-name {
+    font-size:50px;
+}
+
+.calc-button {
+    font-size:20px;
+    cursor: pointer;
+    margin:10px;
+}
+
+.values{
+    margin:15px;
+}
+
+.inputer {
+    margin:2px;
+}
