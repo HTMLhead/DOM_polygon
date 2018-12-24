@@ -1,2 +1,3 @@
 # DOM_polygon
-HTML practice :practice:
+
+* for HTML,CSS,JS practice
