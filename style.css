@@ -36,6 +36,14 @@ header {
     user-select: none;
 }
 
+.prev{
+    margin-left:100px;
+}
+
+.next{
+    margin-right:100px;
+}
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
